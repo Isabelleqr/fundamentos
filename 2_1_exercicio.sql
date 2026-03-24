@@ -14,7 +14,7 @@ CREATE TABLE livros (
 DROP TABLE IF EXISTS alunos;
 
 -- Exercício 4: Crie uma tabela `professores` onde nome não pode ser nulo.
-CREATE TABLE livros (
+CREATE TABLE professores (
     id INTEGER PRIMARY KEY, --chave primaria(unica)
     nome TEXT NOT NULL, -- texto obrigatorio
     idade REAL, -- numero real (pode ser nulo)
